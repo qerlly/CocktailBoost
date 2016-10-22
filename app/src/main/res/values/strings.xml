@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CocktailBoost</string>
+    <string name="ClickButton">Click Me!</string>
+    <string name="Favorites">Favorites cocktails!</string>
+    <string name="All">All cocktails!</string>
+    <string name="Shake">Shake me!</string>
+</resources>
