@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">CocktailBoost</string>
-    <string name="ClickButton">Click Me!</string>
-    <string name="Favorites">Favorites cocktails</string>
-    <string name="All">All cocktails</string>
-    <string name="Settings">Settings</string>
-    <string name="Exit">Exit</string>
+    <string name="favorites">Favorites cocktails</string>
+    <string name="all">All cocktails</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
 </resources>

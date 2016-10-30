@@ -23,18 +23,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/Favorites"
+            android:text="@string/favorites"
             android:textColor="@color/colorText"
             android:textSize="25sp"
             android:textStyle="italic" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|end"
-            android:background="?attr/selectableItemBackground"
             android:padding="20dp"
-            app:srcCompat="@drawable/category_40dp" />
+            app:srcCompat="@drawable/cocktail_fav" />
 
     </FrameLayout>
 

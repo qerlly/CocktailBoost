@@ -11,36 +11,35 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/cocktail_logo" />
 
         <Button
             android:id="@+id/buttonAll"
-            style="@style/ButtonMainMenu"
+            style="@style/ButtonMainMenuLand"
             android:drawableLeft="@drawable/cocktail_all"
             android:text="@string/all" />
 
         <Button
             android:id="@+id/buttonFav"
-            style="@style/ButtonMainMenu"
+            style="@style/ButtonMainMenuLand"
             android:drawableLeft="@drawable/cocktail_fav"
             android:text="@string/favorites" />
 
         <Button
             android:id="@+id/buttonSett"
-            style="@style/ButtonMainMenu"
+            style="@style/ButtonMainMenuLand"
             android:drawableLeft="@drawable/cocktail_sett"
             android:text="@string/settings" />
 
-
         <Button
             android:id="@+id/buttonEx"
-            style="@style/ButtonMainMenu"
+            style="@style/ButtonMainMenuLand"
             android:drawableLeft="@drawable/cocktail_ex"
             android:text="@string/exit" />
 
-
     </LinearLayout>
+
 </ScrollView>
