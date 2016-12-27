@@ -1,38 +1,59 @@
 <resources>
-
-    <!-- Base application theme. -->
-
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="buttonStyle">@style/ButtonMainMenu</item>
+        <item name="toolbarStyle">@style/ToolBar</item>
+        <item name="android:itemTextAppearance">@style/CustomMenuTextApearance</item>
+    </style>
+
+    <style name="BrownTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimaryBrown</item>
+        <item name="android:colorForeground">@color/colorPrimaryBrown</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="buttonStyle">@style/ButtonMainMenuBrown</item>
+        <item name="toolbarStyle">@style/ToolBarBrown</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimaryRed</item>
+        <item name="android:colorForeground">@color/colorPrimaryRed</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="buttonStyle">@style/ButtonMainMenuRed</item>
+        <item name="toolbarStyle">@style/ToolBarRed</item>
+    </style>
+
+    <style name="ButtonMainMenu" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="ButtonMainMenuBrown" parent="ButtonMainMenu">
+        <item name="android:background">@drawable/rounded_button_brown</item>
+    </style>
+
+    <style name="ButtonMainMenuRed" parent="ButtonMainMenu">
+        <item name="android:background">@drawable/rounded_button_red</item>
+    </style>
+
+    <style name="ToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolBarBrown" parent="ToolBar">
+        <item name="android:background">@color/colorAccentBrown</item>
+    </style>
+
+    <style name="ToolBarRed" parent="ToolBar">
+        <item name="android:background">@color/colorAccentRed</item>
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
-    <style name="ButtonMainMenu" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:padding">23dp</item>
-        <item name="android:textColor">@color/colorText</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:layout_margin">10dp</item>
-        <item name="android:background">@drawable/rounded_button</item>
+    <style name="CustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/colorCardText</item>
     </style>
-
-    <style name="ButtonMainMenuLand">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:textColor">@color/colorText</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:background">@drawable/rounded_button</item>
-    </style>
-
 </resources>

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryToolBar">#150938</color>
-    <color name="colorPrimaryDark">#1a0949</color>
-    <color name="colorPrimary">#2b1371</color>
+    <color name="colorPrimaryDark">#437945</color>
+    <color name="colorPrimaryDarkBrown">#735b51</color>
+    <color name="colorPrimaryDarkRed">#9f342d</color>
+    <color name="colorPrimary">#549b57</color>
+    <color name="colorPrimaryBrown">#947A70</color>
+    <color name="colorPrimaryRed">#da4940</color>
+    <color name="colorAccent">#3d703f</color>
+    <color name="colorAccentBrown">#6b544b</color>
+    <color name="colorAccentRed">#99312a</color>
     <color name="colorText">#FFFFFF</color>
-    <color name="colorAccent">#536DFE</color>
+    <color name="colorCard">#ffffff</color>
+    <color name="colorCardText">#000000</color>
 </resources>

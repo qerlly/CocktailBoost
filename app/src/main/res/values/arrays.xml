@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="listArray">
-        <item>Black</item>
+        <item>Lime</item>
         <item>Brown</item>
         <item>Red</item>
     </string-array>

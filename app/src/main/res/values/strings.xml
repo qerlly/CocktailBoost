@@ -1,7 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CocktailBoost</string>
-    <string name="favorites">Favorites cocktails</string>
     <string name="all">All cocktails</string>
+    <string name="favorites">Favorites cocktails</string>
+    <string name="category">Category</string>
+    <string name="random_cocktail">Random cocktail</string>
     <string name="settings">Settings</string>
     <string name="exit">Exit</string>
+    <string name="alcoholic">Alcoholic</string>
+    <string name="nonalcoholic">Non-alcoholic</string>
+    <string name="shake">Shake me!</string>
+    <string name="view">View</string>
+    <string name="show_row">Show as row</string>
+    <string name="show_grid">Show as grid</string>
+    <string name="pref_inc">Notification of updates</string>
+    <string name="inc_pref">This preference can on or off notification of updates</string>
+    <string name="themes">Themes</string>
+    <string name="notifications">Notifications</string>
+    <string name="green_theme">Green Theme</string>
+    <string name="green_sum">This theme will make your application in green style</string>
+    <string name="brown_theme">Brown Theme</string>
+    <string name="brown_sum">This theme will make your application in brown style</string>
+    <string name="red_theme">Red Theme</string>
+    <string name="red_sum">This theme will make your application in red style</string>
 </resources>

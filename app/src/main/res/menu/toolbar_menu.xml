@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:id="@+id/menu"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/show_view"
+        android:title="@string/view"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/view_row"
+                    android:checked="true"
+                    android:title="@string/show_row"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/view_grid"
+                    android:title="@string/show_grid"
+                    app:showAsAction="never"/>
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/toast"
+        android:title="@string/category"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/all_category"
+                android:icon="@drawable/toast"
+                android:title="@string/all"/>
+            <item
+                android:id="@+id/alcohol_category"
+                android:icon="@drawable/whiskey"
+                android:title="@string/alcoholic"/>
+            <item
+                android:id="@+id/no_alcohol_category"
+                android:icon="@drawable/lemon_juice"
+                android:title="@string/nonalcoholic"/>
+        </menu>
+    </item>
+</menu>

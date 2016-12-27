@@ -1,4 +1,4 @@
-package qerlly.cocktailboost.Http;
+package qerlly.cocktailboost.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,20 +12,20 @@ public class HttpClient {
     public String get(String url) {
         String response = null;
         try {
-            URL reqUrl = new URL(url);
-            HttpURLConnection connection = (HttpURLConnection) reqUrl.openConnection();
+            URL mUrl = new URL(url);
+            HttpURLConnection connection = (HttpURLConnection) mUrl.openConnection();
             connection.setRequestMethod("GET");
 
-            InputStream inputStream = connection.getInputStream();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            InputStream mStream = connection.getInputStream();
+            BufferedReader mReader = new BufferedReader(new InputStreamReader(mStream));
             StringBuilder stringBuilder = new StringBuilder();
             String line;
-            while ((line = reader.readLine()) != null) {
+            while ((line = mReader.readLine()) != null) {
                 stringBuilder.append(line);
             }
             response = stringBuilder.toString();
 
-            inputStream.close();
+            mStream.close();
             connection.disconnect();
         } catch (IOException e) {
             e.printStackTrace();
